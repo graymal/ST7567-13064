@@ -1,4 +1,4 @@
-#Fork from https://github.com/nstepanets/ST7567.git This is a library for ST7567 Monochrome LCD Displays.  
+#Fork from https://github.com/nstepanets/ST7567.git This is a library for ST7567 Monochrome LCD Displays with nonstandart resolution 130x64.  
 These displays use SPI to communicate, 5 pins are required to interface.  
 This library depends on Adafruit GFX library at https://github.com/adafruit/Adafruit-GFX-Library. Please make sure you have installed the latest version before using this library.  
   
