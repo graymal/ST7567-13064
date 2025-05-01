@@ -3,7 +3,7 @@ These displays use SPI to communicate, 5 pins are required to interface.
 This library depends on Adafruit GFX library at https://github.com/adafruit/Adafruit-GFX-Library. Please make sure you have installed the latest version before using this library.
 
 LCD Interface
-*1 (VG) - Cap 0,1 to GND
+*1 (VG) - Cap 0,1 to GND\n
 *2 (XV0) - Cap 0,1 to 3
 *3 (V0) - Cap 0,1 to 2
 *4 (GND) - Ground
