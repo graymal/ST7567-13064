@@ -1,8 +1,13 @@
 #include <Arduino.h>
-
 #include "ST7567-13064.h"
 
-ST7567 display(14, 12, 13, 11, 10);
+#define MOSI_PIN 14
+#define SCLK_PIN 12
+#define DC_PIN 13
+#define RST_PIN 11
+#define CS_PIN 10
+
+ST7567 display(MOSI_PIN, SCLK_PIN, DC_PIN, RST_PIN, CS_PIN);
 
 #define NUMFLAKES 10
 #define XPOS 0
